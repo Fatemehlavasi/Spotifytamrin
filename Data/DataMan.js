@@ -24,20 +24,21 @@ export const DataCard1 =
 import imag1 from "../Assets/Image/Playlist/Rectangle.png"
 import imag2 from "../Assets/Image/Playlist/Rectangle1.png"
 import imag3 from "../Assets/Image/Playlist/Rectangle2.png"
+import imag4 from "../Assets/Image/Playlist/Rectangle5.png"
 export const DataCard2 =
 [
-    {id:1, Image:imag1 , title:"Pop Right Now" , Dec:"klijuhygtfgtguioihuygtgfhgf"},
+    {id:1, Image:imag1 , title:"Pop Right Now" , Dec:"klijuhpppppppppppppygtfgtguioihuygtgfhgf"},
     {id:2, Image:imag2 , title:"Pop Right Now" , Dec:"klijuhygtfgtguioihuygtgfhgf"},
     {id:3, Image:imag3 , title:"Pop Right Now" , Dec:"klijuhygtfgtguioihuygtgfhgf"},
-    {id:4, Image:imag1 , title:"Pop Right Now" , Dec:"klijuhygtfgtguioihuygtgfhgf"},
+    {id:4, Image:imag4 , title:"Pop Right Now" , Dec:"klijuhygtfgtguioihuygtgfhgf"},
     {id:5, Image:imag1 , title:"Pop Right Now" , Dec:"klijuhygtfgtguioihuygtgfhgf"},
     
 ]
 
 export const DataCard3 =
 [
-    {id:6, Image:imag1, title:"Pop Right Now" , Dec:"kjlijuhygtfgtguioihuygtgfgf"},
-    {id:7, Image:imag2, title:"Pop Right Now" , Dec:"kjlijuhygtfgtguioihuygtgfgf"},
+    {id:6, Image:imag1, title:"Pop Right Now" , Dec:"kjlijuhygtfgtguiکککککککککککککککککککککککککککoihuygtgfgf"},
+    {id:7, Image:imag2, title:"Pop Right Now" , Dec:"kjlijuhمنتعغافقبببخنهتعاغلفبygtfgtguioihuygtgfgf"},
     {id:8, Image:imag1, title:"Pop Right Now" , Dec:"kjlijuhygtfgtguioihuygtgfgf"},
     {id:9, Image:imag1, title:"Pop Right Now" , Dec:"kjlijuhygtfgtguioihuygtgfgf"},
     {id:10, Image:imag1, title:"Pop Right Now" , Dec:"kjlijuhygtfgtguioihuygtgfgf"},

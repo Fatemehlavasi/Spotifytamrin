@@ -39,7 +39,7 @@ const HomeMain = () => {
       </Grid>
       <Grid pl={3} mr={10} item display={"flex"} flexWrap={"wrap"} justifyContent={"space-between"} >
         {DataCard2.map((item) => (
-          <Card sx={{maxWidth: "300px",minHeight: "300px",bgcolor: "#181818",color: "#fff",mt: "10px",}}>
+          <Card sx={{maxWidth: "200px",minHeight: "300px",bgcolor: "#181818",color: "#fff",mt: "10px",}}>
             <CardActionArea>
               <Grid display={"flex"} alignItems={"center"} ml={2} mt={3} justifyContent={"center"} width={"158px"} height={"158px"} >
                 <Image src={item.Image} />
@@ -48,7 +48,7 @@ const HomeMain = () => {
                 <Typography gutterBottom variant="h5" component="div" mt={5}>
                   {item.title}
                 </Typography>
-                <Typography variant="body2" color="#FFF">
+                <Typography variant="body2" color="#FFF" width={"100%"} >
                   {item.Dec}
                 </Typography>
               </CardContent>
@@ -61,7 +61,7 @@ const HomeMain = () => {
       </Grid>
       <Grid pl={3} item display={"flex"} flexWrap={"wrap"} justifyContent={"space-between"} mr={10}>
         {DataCard3.map((item) => (
-          <Card sx={{ maxWidth: "300px", minHeight: "300px", bgcolor: "#181818", color: "#fff", mt: "10px", }} >
+          <Card sx={{ maxWidth: "200px" , minHeight: "300px", bgcolor: "#181818", color: "#fff", mt: "10px", }} >
             <CardActionArea>
               <Grid display={"flex"} alignItems={"center"} ml={2} mt={3} justifyContent={"center"} width={"158px"} height={"158px"}>
                 <Image src={item.Image} />
@@ -70,7 +70,7 @@ const HomeMain = () => {
                 <Typography gutterBottom variant="h5" component="div" mt={5}>
                   {item.title}
                 </Typography>
-                <Typography variant="body2" color={"#FFF"}>
+                <Typography variant="body2" color={"#FFF"} width={"100%"} bgcolor={"red"}>
                   {item.Dec}
                 </Typography>
               </CardContent>
