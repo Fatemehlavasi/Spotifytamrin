@@ -7,7 +7,7 @@ import CardContent from "@mui/material/CardContent";
 import { CardActionArea } from "@mui/material";
 const HomeMain = () => {
   return (
-    <Grid display={"flex"} flexDirection={"column"} container xs={10} p={2} bgcolor={"#3C3F41"} ml={33}>
+    <Grid display={"flex"} flexDirection={"column"} container xs={10} p={2} bgcolor={"#1d1e1f"} ml={33}>
       <Grid item mt={10} color={"#fff"}>
         <Typography variant="h4">Good afternoon</Typography>
       </Grid>

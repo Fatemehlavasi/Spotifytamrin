@@ -8,7 +8,7 @@ const Librarypalylist = () => {
   return (
     <Grid xs={10} bgcolor={"#333638"} display={"flex"} flexDirection={"column"} minheight={"1000px"} >
       <Sidebar />
-      <Grid display={"flex"} justifyContent={"space-between"} ml={30} flexDirection={"column"} bgcolor={"#3C3F41"} >
+      <Grid display={"flex"} justifyContent={"space-between"} ml={30} flexDirection={"column"} bgcolor={"#1d1e1f"} >
         <FooterLibrary />
         <MainLibrary />
       </Grid>
