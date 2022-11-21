@@ -11,7 +11,7 @@ const HomeMain = () => {
       <Grid item mt={10} color={"#fff"}>
         <Typography variant="h4">Good afternoon</Typography>
       </Grid>
-      <Grid mr={10} ml={3} display={"flex"} flexWrap={"wrap"} mb={5} bgcolor={"green"}>
+      <Grid mr={10} ml={3} display={"flex"} flexWrap={"wrap"} mb={5}>
         {DataCard1.map((item) => (
           <Grid bgcolor={"#343536"} color={"#FFF"} display={"flex"} justifyContent={"space-between"} alignItems={"center"} xs={12} sm={4} md={2.90} borderRadius={2} m={0.4} >
             <Image src={item.Image} />
@@ -19,7 +19,7 @@ const HomeMain = () => {
           </Grid>
         ))}
       </Grid>
-      <Grid item mt={10} color={"#fff"}>
+      {/* <Grid item mt={10} color={"#fff"}>
         <Typography variant="h4">Good afternoon</Typography>
       </Grid>
        <Grid  item display={"flex"} flexWrap={"wrap"}   justifyContent={"space-between"} mr={10} bgcolor={"gold"}>
@@ -33,7 +33,7 @@ const HomeMain = () => {
             </CardContent>
           </Card>
         ))}
-      </Grid>
+      </Grid> */}
       <Grid item color={"#fff"}>
         <Typography variant="h4">ًRecently Played</Typography>
       </Grid>
