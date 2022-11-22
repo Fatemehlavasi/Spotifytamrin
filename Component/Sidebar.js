@@ -69,7 +69,7 @@ const Sidebar = () => {
         display={"flex"}
         xs={12}
       >
-        <Image src={imag1} />
+        <Image src={imag1}   alt={"image"}/>
       </Grid>
 
       

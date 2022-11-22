@@ -8,16 +8,11 @@ import {  Typography } from "@mui/material";
 const FooterLibrary = () => {
   return (
     <Card sx={{ display: "flex" , bgcolor:"#7B958F"}}>
-
-    {/* <Grid display={"flex"} alignItems={"center"} ml={2} mt={3} justifyContent={"center"} height={"158px"}  > */}
-        <Image src={imag}  width={"100px"}/>
-      {/* </Grid> */}
+        <Image src={imag}  alt={"image"} width={"100px"}/>
       <Box sx={{ display: "flex", flexDirection: "column" }}>
         <CardContent sx={{ flex: "1 0 auto" , mt:"60px"}}>
-         
           <Typography
             variant="subtitle1"
-            
             component="div"
             color={"#FFF"}
           >
@@ -31,7 +26,6 @@ const FooterLibrary = () => {
             width={"70%"}
             component="div"
             color={"#FFF"}
-          
           >
            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus
           </Typography>

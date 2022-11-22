@@ -9,7 +9,7 @@ const RowTable = ({titel,id,imag,subtitle,subtitle2,clock,time,icon,}) => {
       <TableCell component="th" scope="row">
         <Grid display={"flex"} alignItems={"center"} color={"#FFF"} gap={2}>
           <Typography color="#fff">{id}</Typography>
-          <Image src={imag} />
+          <Image src={imag}  alt={"image"}/>
           <Grid>
             <Typography color={"#FFF"}>{titel}</Typography>
             <Typography color={"#FFF"}>{subtitle}</Typography>

@@ -89,7 +89,6 @@ const footer = () => {
       </Grid>
       <Grid display={"flex"} alignItems={"center"} gap={1} width={"3000px"}>
         <Typography color={"#fff"}>{"0:00"}</Typography>
-        {/* <Image src={image} /> */}
         <Grid border={2} borderRadius={5} width={{ xs: "12%", lg: "22%" }} />
         <Typography color={"#fff"}>{"2:50"}</Typography>
       </Grid>

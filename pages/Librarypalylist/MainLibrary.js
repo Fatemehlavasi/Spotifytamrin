@@ -20,9 +20,9 @@ const MainLibrary = () => {
   return (
     <>
       <Grid ml={3} mt={3} display={"flex"} alignItems={"center"} gap={2}>
-        <Image src={imag}/>
-        <Image src={imag1}  />
-        <Image src={imag2}  />
+        <Image src={imag}  alt={"image"}/>
+        <Image src={imag1}   alt={"image"} />
+        <Image src={imag2}   alt={"image"}/>
       </Grid>
       <Grid ml={3}    > 
       <TableContainer  >
