@@ -15,6 +15,7 @@ const Sidebar = () => {
       container
       xs={3}
       lg={2}
+      item
       bgcolor={"black"}
       minWidth={200}
       height={"100vh"}
@@ -26,7 +27,7 @@ const Sidebar = () => {
           justifyContent={"flex-start"}
           display={"flex"}
         >
-          <Image src={logo} />
+          <Image src={logo} alt ={"fhsfjdij"}/>
         </Grid>
         <List
           sx={{ width: "100%", maxWidth: 360, color: "#B3B3B3" }}
@@ -65,6 +66,7 @@ const Sidebar = () => {
         </List>
       </Grid>
       <Grid
+      item
         justifyContent={"center"}
         display={"flex"}
         xs={12}

@@ -4,7 +4,7 @@ import Sidebar from "../../Component/Sidebar";
 import Footer from "../../Component/Footer";
 const SinglePage = () => {
   return (
-    <Grid xs={10} bgcolor={"#333638"} display={"flex"} flexDirection={"column"}>
+    <Grid item xs={10} bgcolor={"#333638"} display={"flex"} flexDirection={"column"}>
       <Grid display={"flex"} justifyContent={"space-between"}>
         <Sidebar />
         <Grid>SinglePage</Grid>

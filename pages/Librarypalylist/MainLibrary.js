@@ -10,12 +10,10 @@ import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
 import AvTimerIcon from '@mui/icons-material/AvTimer';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import { DataTable } from "../../Data/DataTable";
 import RowTable from "./RowTable";
-import HeaderTable from "./HeaderTable";
+
 const MainLibrary = () => {
   return (
     <>
@@ -46,7 +44,7 @@ const MainLibrary = () => {
         <TableBody>
          {
             DataTable.map(item =>(
-               <RowTable id={item.id} titel={item.titel} imag={item.imag}  subtitle={item.subtitle} subtitle2={item.subtitle2} clock={item.clock} time={item.time} icon={item.icon}/>
+               <RowTable key={item.id} id={item.id} titel={item.titel} imag={item.imag}  subtitle={item.subtitle} subtitle2={item.subtitle2} clock={item.clock} time={item.time} icon={item.icon}/>
             ))
          }          
         </TableBody>

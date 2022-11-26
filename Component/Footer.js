@@ -14,13 +14,14 @@ import ZoomOutMapIcon from "@mui/icons-material/ZoomOutMap";
 import BrandingWatermarkIcon from "@mui/icons-material/BrandingWatermark";
 import vector from "../Assets/Image/footer/Vector.svg"
 import vector1 from "../Assets/Image/footer/Vector1.svg"
-import vector2 from "../Assets/Image/footer/vector2.png"
+import vector2 from "../Assets/Image/footer/Vector2.png"
 const footer = () => {
   return (
     <Grid
     width={"100%"}
     p={1}
     xs={12}
+    item
     container
     display={"flex"}
     justifyContent={"flex-start"}
@@ -66,7 +67,7 @@ const footer = () => {
         <BrandingWatermarkIcon />
       </Typography>
     </Grid>
-    <Grid xs={5} lg={6.4}>
+    <Grid item xs={5} lg={6.4}>
       <Grid
         my={1}
         display={"flex"}
@@ -80,24 +81,24 @@ const footer = () => {
           justifyContent={"space-evenly"}
           color={"#fff"}
         >
-          <Image src={vector} alt={"Vector1"} />
+          <Image src={vector} alt={"Vector"} />
           <SkipPreviousIcon color="#fff" />
           <PlayCircleIcon  color="#fff"/>
           <SkipNextIcon  color="#fff"/>
-          <Image src={vector1} alt={"Vector2"} />
+          <Image src={vector1} alt={"Vector1"} />
         </Grid>
       </Grid>
       <Grid display={"flex"} alignItems={"center"} gap={1} width={"3000px"}>
         <Typography color={"#fff"}>{"0:00"}</Typography>
-        <Grid border={2} borderRadius={5} width={{ xs: "12%", lg: "22%" }} />
+        <Grid item border={2} borderRadius={5} width={{ xs: "12%", lg: "22%" }} />
         <Typography color={"#fff"}>{"2:50"}</Typography>
       </Grid>
     </Grid>
-    <Grid xs={3} lg={2} display={"flex"} alignItems={"center"} gap={1} pl={7}>
+    <Grid item xs={3} lg={2} display={"flex"} alignItems={"center"} gap={1} pl={7}>
       <PlaylistPlayIcon />
       <ZoomOutMapIcon />
-      <Image src={vector2 } alt="Vector3" color={"#fff"} />
-      <Image src={vector } alt="Rectangle14" color={"#fff"} />
+      <Image src={vector2} alt={"Vector2"} color={"#fff"} />
+      <Image src={vector} alt={"Rectangle14"} color={"#fff"} />
     </Grid>
   </Grid>
   );

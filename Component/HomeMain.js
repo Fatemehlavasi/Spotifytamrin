@@ -7,13 +7,13 @@ import CardContent from "@mui/material/CardContent";
 import { CardActionArea } from "@mui/material";
 const HomeMain = () => {
   return (
-    <Grid display={"flex"} flexDirection={"column"} container xs={10} p={2} bgcolor={"#1d1e1f"} ml={33}>
+    <Grid display={"flex"} flexDirection={"column"} item container xs={10} p={2} bgcolor={"#1d1e1f"} ml={33}>
       <Grid item mt={10} color={"#fff"}>
         <Typography variant="h4">Good afternoon</Typography>
       </Grid>
       <Grid mr={10} ml={3} display={"flex"} flexWrap={"wrap"} mb={5}>
         {DataCard1.map((item) => (
-          <Grid bgcolor={"#343536"} color={"#FFF"} display={"flex"} justifyContent={"space-between"} alignItems={"center"} xs={12} sm={4} md={2.90} borderRadius={2} m={0.4} >
+          <Grid bgcolor={"#343536"} color={"#FFF"} item display={"flex"} justifyContent={"space-between"} alignItems={"center"} xs={12} sm={4} md={2.90} borderRadius={2} m={0.4} >
             <Image src={item.Image}  alt={"image"} />
             <Typography  fontSize={"14px"} pr={9}>{item.title} </Typography>
           </Grid>

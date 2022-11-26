@@ -3,11 +3,11 @@ import TableRow from "@mui/material/TableRow";
 import { Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import TableCell from "@mui/material/TableCell";
-const RowTable = ({titel,id,imag,subtitle,subtitle2,clock,time,icon,}) => {
+const RowTable = ({titel,id,imag,subtitle,subtitle2,clock,time,icon}) => {
   return (
     <TableRow sx={{ "&:last-child td, &:last-child th": { border: 0 } }}>
-      <TableCell component="th" scope="row">
-        <Grid display={"flex"} alignItems={"center"} color={"#FFF"} gap={2}>
+      <TableCell component="th" scope="row" sx={{borderBottom:"none" , cursor:"pointer"}}  >
+        <Grid display={"flex"} alignItems={"center"} color={"#FFF"} gap={2}  >
           <Typography color="#fff">{id}</Typography>
           <Image src={imag}  alt={"image"}/>
           <Grid>
@@ -16,13 +16,13 @@ const RowTable = ({titel,id,imag,subtitle,subtitle2,clock,time,icon,}) => {
           </Grid>
         </Grid>
       </TableCell>
-      <TableCell align="center" >
+      <TableCell align="center" sx={{borderBottom:"none" ,  cursor:"pointer"}}  >
         <Typography color={"#FFF"}>{subtitle2}</Typography>
       </TableCell>
-      <TableCell align="right" >
+      <TableCell align="right"  sx={{borderBottom:"none"}}>
         <Typography color={"#FFF"}>{clock}</Typography>
       </TableCell>
-      <TableCell align="right" color={"#FFF"}>
+      <TableCell align="right" color={"#FFF"} sx={{borderBottom:"none" ,  cursor:"pointer"}}>
         <Grid display={"flex"} justifyContent={"flex-end"}>
           <Typography color={"#FFF"}>{time}</Typography>
           <Typography color={"#FFF"}>{icon}</Typography>
